@@ -1,8 +1,8 @@
-.container {
-  max-width: 400px;
-  background-color: #fff;
-  justify-content: center;
-  align-items: center;
-  height: 370px;
-  border-radius: 10px;
+.container{
+  max-width: 400;
+  background-color: "#fff";
+  justify-content: "center";
+  align-items: "center";
+  height: 370;
+  border-radius: 10;
 }

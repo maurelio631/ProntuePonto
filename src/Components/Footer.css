@@ -1,9 +1,11 @@
 .container{
+    display: flex;
     position: absolute;
     bottom: 0;
     margin-bottom: 10;
 }
 .footerText{
+    display: flex;
     font-size: 15;
     color: #fff;
 }

@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-direction:"column";
+    background-color: "black";
+    height: 2;
+    align-items: "center";
+    border-width: 1;
+    width: 50;
+    border-color: "#c1c1c1";
+}

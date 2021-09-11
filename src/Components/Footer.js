@@ -1,11 +1,22 @@
 import React from "react";
-import './Footer.css';
+import { StyleSheet, Text, View, Button, TextInput } from "react-native";
 
-const Footer = (props) => (
-  <div>
-    <p>Todos os direitos reservados</p>
-    <span>{props.children}</span> &reg;
-  </div>
-);
+export default function Footer() {
+  return (
+        <View style={styles.container}>
+          <Text style={styles.footerText}>Todos os direitos reservados Prontu e Ponto&reg;</Text>
+        </View>
+  );
+}
+const styles = StyleSheet.create({
+  container:{
+    position:"absolute",
+    bottom:0,
+    marginBottom:10,
+  },
+  footerText:{
+    fontSize:15,
+    color:"#ffff",
+  },
 
-export default Footer;
+});
