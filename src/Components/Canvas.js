@@ -1,6 +1,6 @@
 import React from "react";
 import "./Canvas.css";
 
-const Canvas = (props) => <div className="container">{props.children}</div>;
-export default Canvas;
-
+export default function Canvas(props) {
+    return  <div className="container">{props.children}</div>
+}

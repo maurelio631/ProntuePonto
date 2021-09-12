@@ -1,5 +1,6 @@
-import React from 'react';
-import "./Container.css";
+import React from "react";
+import "../Components/Container.css";
 
-const Container = (props)=> <div className="container">{props.children}</div>
-export default Container;
+export default function Container(props) {
+  return <div className="container">{props.children}</div>;
+}

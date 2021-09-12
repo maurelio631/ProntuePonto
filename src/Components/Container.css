@@ -1,8 +1,9 @@
-.container{
-  max-width: 400;
-  background-color: "#fff";
+.container {
+  display: flex;
   justify-content: "center";
   align-items: "center";
-  height: 370;
-  border-radius: 10;
+  width: "400px";
+  height: "600px";
+  background-color: #fff;
+  border-radius: "10px";
 }

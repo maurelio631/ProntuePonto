@@ -1,24 +1,12 @@
 import React from "react";
-import { TextInput, StyleSheet } from "react-native";
+import "TextEntry.css";
 
-export default (props) => (
-  <TextInput
-    style={styles.container}
+const TextEntry = (props) => (
+  <input
+    className="container"
     keyboardType="default"
-    textContentType="none"
     placeholder={props.placeholder}
   />
 );
 
-const styles = StyleSheet.create({
-  container: {
-    borderWidth: 1,
-    backgroundColor: "#ffff",
-    height: 40,
-    width: 200,
-    bottom: 10,
-    textAlign: "center",
-    borderRadius: 10,
-    margin: 10,
-  },
-});
+export default TextEntry;
