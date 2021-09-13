@@ -1,5 +1,5 @@
 import React from "react";
-import "TextEntry.css";
+import "TextEntry.module.css";
 
 const TextEntry = (props) => (
   <input

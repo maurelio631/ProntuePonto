@@ -1,5 +1,5 @@
 import React from "react";
-import "PhoneEntry.css";
+import "PhoneEntry.module.css";
 
 const PhoneEntry = (props) => (
   <input

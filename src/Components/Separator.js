@@ -1,5 +1,5 @@
 import React from "react";
-import "./Separator.css";
+import "./Separator.module.css";
 
 const Separator =  (props) => {
   return <hr className=" container"/>;

@@ -1,6 +1,6 @@
 import React from "react";
-import "./Canvas.css";
+import Style from "./Canvas.module.css";
 
 export default function Canvas(props) {
-    return  <div className="container">{props.children}</div>
+  return <div className={Style.container}>{props.children}</div>;
 }

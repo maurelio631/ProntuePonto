@@ -1,5 +1,5 @@
 import React from "react";
-import "EmailEntry.css";
+import "EmailEntry.module.css";
 
 const EmailEntry = (props) => (
   <input
