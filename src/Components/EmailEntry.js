@@ -1,11 +1,10 @@
 import React from "react";
-import "EmailEntry.module.css";
+import Styles from "./EmailEntry.module.css";
 
 const EmailEntry = (props) => (
   <input
-    className="container"
-    keyboardType="email-address"
-    textContentType="emailAddress"
+    className={Styles.container}
+    type="email"
     placeholder={props.placeholder}
   />
 );

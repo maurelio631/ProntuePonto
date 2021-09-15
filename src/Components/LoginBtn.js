@@ -1,9 +1,9 @@
 import React from "react";
-import "./LoginBtn.module.css";
+import Styles from "./LoginBtn.module.css";
 
 const LoginBtn = (props) => {
   return (
-    <button onPress={props.onPress} className="container" >
+    <button onPress={props.onPress} className={Styles.container} >
       {props.children}
     </button>
   );

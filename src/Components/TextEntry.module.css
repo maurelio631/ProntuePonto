@@ -1,10 +1,6 @@
 .container {
-  border-width: 1;
-  background-color: "#ffff";
-  height: 40;
-  width: 200;
-  margin-bottom: 10;
-  text-align: "center";
-  border-radius: 10;
-  margin: 10;
+  text-align: center;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }

@@ -1,11 +1,13 @@
 .container {
-  width: 120;
-  height: 40;
-  color: "#000";
-  border-width: 0;
-  border-radius: 15;
-  margin-top: 20;
-  justify-content: "center";
-  align-items: "center";
-  background-color: "#c1c1c1";
+  width: 120px;
+  height: 40px;
+  color: black;
+  border-width: 0px;
+  border-radius: 15px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #c1c1c1;
+  margin-bottom: 10px;
+  cursor: pointer;
 }

@@ -1,12 +1,9 @@
-.container{
-    display: flex;
-    flex-direction:"column";
-    background-color: "black";
-    height: 2;
-    align-items: "center";
-    border-width: 1;
-    width: 50;
-    border-color: "#c1c1c1";
-    margin-bottom: 20;
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #8f8e8e;
+  height: 1px;
+  align-items: center;
+  width: 50px;
+  border-color: "#c1c1c1";
 }
-

@@ -1,10 +1,9 @@
 import React from "react";
-import "TextEntry.module.css";
+import Styles from "./TextEntry.module.css";
 
 const TextEntry = (props) => (
   <input
-    className="container"
-    keyboardType="default"
+    className={Styles.container}
     placeholder={props.placeholder}
   />
 );
