@@ -1,17 +1,17 @@
 import React from 'react';
-import Canvas from '../components/Canvas';
-import ComplementarText from '../components/ComplementarText';
-import Container from '../components/Container';
-import EmailEntry from '../components/EmailEntry';
-import SubmitBtn from '../components/LoginBtn';
-import TextEntry from '../components/TextEntry';
-import Titulo from '../components/Titulo';
+import Canvas from '../Components/Canvas';
+import ComplementarText from '../Components/ComplementarText';
+import Container from '../Components/Container';
+import EmailEntry from '../Components/EmailEntry';
+import SubmitBtn from '../Components/LoginBtn';
+import TextEntry from '../Components/TextEntry';
+import Title from '../Components/Title';
 
-export default ({navigation})=>{
+export default function ForgotPassword(){
     return (
         <Canvas>
         <Container>
-            <Titulo>Esqueci Minha Senha</Titulo>
+            <Title>Esqueci Minha Senha</Title>
             <ComplementarText>Enviaremos uma mensagem de recuperação com os passos para retomar seu acesso</ComplementarText>
             <EmailEntry  placeholder="Insira seu e-mail"/>
             <SubmitBtn>Enviar</SubmitBtn>
