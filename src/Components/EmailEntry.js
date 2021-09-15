@@ -4,7 +4,7 @@ import "../../src/Components/EmailEntry.module.css";
 export default function EmailEntry(props) {
   return (
     <input
-      className="container"
+      className="EmailEntry"
       type="email"
       placeholder={props.placeholder}
     />
