@@ -1,7 +1,6 @@
 import React from "react";
-import Styles from "./PasswordEntry.module.css";
+import "../../src/Components/PasswordEntry.module.css";
 
-const PasswordEntry = (props) => (
-  <input className={Styles.container} placeholder={props.placeholder} />
-);
-export default PasswordEntry;
+export default function PasswordEntry(props) {
+  return <input className="container" placeholder={props.placeholder} />
+};

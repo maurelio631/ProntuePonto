@@ -1,11 +1,6 @@
 import React from "react";
-import Styles from "./TextEntry.module.css";
+import "../../src/Components/TextEntry.module.css";
 
-const TextEntry = (props) => (
-  <input
-    className={Styles.container}
-    placeholder={props.placeholder}
-  />
-);
-
-export default TextEntry;
+export default function TextEntry(props) {
+  return <input className="container" placeholder={props.placeholder} />;
+}

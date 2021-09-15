@@ -1,12 +1,10 @@
 import React from "react";
-import Styles from "./LoginBtn.module.css";
+import "../../src/Components/LoginBtn.module.css";
 
-const LoginBtn = (props) => {
+export default function LoginBtn(props){
   return (
-    <button onPress={props.onPress} className={Styles.container} >
+    <button onPress={props.onPress} className="container" >
       {props.children}
     </button>
   );
 };
-
-export default LoginBtn;

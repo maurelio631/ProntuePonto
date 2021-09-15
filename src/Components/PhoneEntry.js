@@ -1,11 +1,6 @@
 import React from "react";
-import "PhoneEntry.module.css";
+import "../../src/Components/PhoneEntry.module.css";
 
-const PhoneEntry = (props) => (
-  <input
-    keyboardType="phone-pad"
-    textContentType="telephoneNumber"
-  />
-);
-
-export default PhoneEntry;
+export default function PhoneEntry(props) {
+  return <input className="container" keyboardType="phone-pad" textContentType="telephoneNumber" />;
+}

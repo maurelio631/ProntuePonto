@@ -1,6 +1,6 @@
 import React from "react";
-import Styles from "./Title.module.css";
+import "../../src/Components/Title.module.css";
 
-const Title = (props) => <h2 className={Styles.container}>{props.children}</h2>
-
-export default Title;
+export default function Title(props) {
+  return <h2 className="container">{props.children}</h2>;
+}

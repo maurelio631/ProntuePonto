@@ -1,5 +1,6 @@
 import React from "react";
-import Styles from "../Components/ComplementarText.module.css";
+import "../../src/Components/ComplementarText.module.css";
 
-const ComplementarText = (props)=><p className={Styles.container}>{props.children}</p>
-export default ComplementarText;
+export default function ComplementarText(props) {
+  return <p className="container">{props.children}</p>;
+}
