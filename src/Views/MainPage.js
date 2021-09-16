@@ -1,11 +1,9 @@
 import React from "react";
-import { StyleSheet, SafeAreaView, Text, View } from "react-native";
-
 export default (props) => {
   return (
-    <SafeAreaView>
-      <View style={{ flexDirection: "row", width: 500, height: 500 }}>
-        <View
+    <div>
+      <div style={{ flexDirection: "row", width: 500, height: 500 }}>
+        <div
           style={{
             height: "20%",
             width: "20%",
@@ -15,25 +13,25 @@ export default (props) => {
             alignItems: "center",
           }}
         >
-          <Text
+          <label
             style={{ textAlign: "center", color: "#000", fontWeight: "bold" }}
           >
             Logo da clínica aqui
-          </Text>
-        </View>
-        <Text style={{ marginLeft: 50, marginTop: 30 }}>Nome da clinica</Text>
+          </label>
+        </div>
+        <label style={{ marginLeft: 50, marginTop: 30 }}>Nome da clinica</label>
 
-        <View style={{flexDirection:"row-reverse"}}>
-          <View>
+        <duv style={{flexDirection:"row-reverse"}}>
+          <div>
             
-          <Text>Nome do funcionário</Text>
+          <label>Nome do funcionário</label>
           
-          <View style={{height:100, width:100, backgroundColor:"#2e2e2e", borderRadius:"50%", alignItems:"center", justifyContent:"center"}}>
-            <Text style={{textAlign:"center"}}>Foto do Funcionário</Text>
-          </View>
-          </View>
-        </View>
-      </View>
-    </SafeAreaView>
+          <div style={{height:100, width:100, backgroundColor:"#2e2e2e", borderRadius:"50%", alignItems:"center", justifyContent:"center"}}>
+            <label style={{textAlign:"center"}}>Foto do Funcionário</label>
+          </div>
+          </div>
+        </duv>
+      </div>
+    </div>
   );
 };

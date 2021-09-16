@@ -8,27 +8,31 @@ import Separator from "../../src/Components/Separator";
 import PasswordEntry from "../../src/Components/PasswordEntry";
 import LoginBtn from "../../src/Components/LoginBtn";
 import ComplementarText from "../../src/Components/ComplementarText";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ForgotPassword from "../Views/ForgotPassword";
+import Routes from "../routes/routes";
+import "../../src/Views/Login.module.css";
 
 export default function Login(props) {
   return (
-    <Router>
-      <Canvas>
-        <Container>
-          <Title>Faça o login para continuar</Title>
-          <TextEntry placeholder="Insira o id da sua clínica" />
-          <Separator />
-          <EmailEntry placeholder="Insira seu e-mail" />
-          <PasswordEntry placeholder="Insiraa senha " />
-          <Route path="/">Esqueci minha senha</Route>
+    <Canvas>
+      <Container>
+        <Title>Faça o login para continuar</Title>
+        <TextEntry placeholder="Insira o id da sua clínica" />
+        <Separator />
+        <EmailEntry placeholder="Insira seu e-mail" />
+        <PasswordEntry placeholder="Insira a senha " />
+        <div className="remebermeCheck">
+          <input type="checkbox" />
+          <label className="remembermeLabel">Lembre-me</label>
+        </div>
+        <Link className="link" to="/ForgotPassword">
+          Esqueci minha senha
+        </Link>
+        <Link to="MainPage">
           <LoginBtn>Entrar</LoginBtn>
-        </Container>
-      </Canvas>
-
-      <Route path="/" component={Login}/>
-      <Route path="/ForgotPassword" component={ForgotPassword}/>
-      <ForgotPassword/>
-    </Router>
+        </Link>
+      </Container>
+    </Canvas>
   );
 }
