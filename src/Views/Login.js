@@ -7,10 +7,8 @@ import EmailEntry from "../../src/Components/EmailEntry";
 import Separator from "../../src/Components/Separator";
 import PasswordEntry from "../../src/Components/PasswordEntry";
 import LoginBtn from "../../src/Components/LoginBtn";
-import ComplementarText from "../../src/Components/ComplementarText";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import ForgotPassword from "../Views/ForgotPassword";
-import Routes from "../routes/routes";
+import { Link } from "react-router-dom";
+
 import "../../src/Views/Login.module.css";
 
 export default function Login(props) {

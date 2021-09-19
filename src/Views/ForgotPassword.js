@@ -5,9 +5,7 @@ import ComplementarText from "../Components/ComplementarText";
 import Container from "../Components/Container";
 import EmailEntry from "../Components/EmailEntry";
 import SubmitBtn from "../Components/LoginBtn";
-import TextEntry from "../Components/TextEntry";
 import Title from "../Components/Title";
-import Router from "../routes/routes";
 
 export default function ForgotPassword() {
   return (

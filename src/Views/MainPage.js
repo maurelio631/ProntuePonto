@@ -1,37 +1,12 @@
 import React from "react";
-export default (props) => {
+import Sidebar from "../Components/Sidebar";
+export default function MainPage(props) {
   return (
     <div>
-      <div style={{ flexDirection: "row", width: 500, height: 500 }}>
-        <div
-          style={{
-            height: "20%",
-            width: "20%",
-            backgroundColor: "#2e2e2e",
-            borderRadius: "50%",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <label
-            style={{ textAlign: "center", color: "#000", fontWeight: "bold" }}
-          >
-            Logo da clínica aqui
-          </label>
-        </div>
-        <label style={{ marginLeft: 50, marginTop: 30 }}>Nome da clinica</label>
-
-        <duv style={{flexDirection:"row-reverse"}}>
-          <div>
-            
-          <label>Nome do funcionário</label>
-          
-          <div style={{height:100, width:100, backgroundColor:"#2e2e2e", borderRadius:"50%", alignItems:"center", justifyContent:"center"}}>
-            <label style={{textAlign:"center"}}>Foto do Funcionário</label>
-          </div>
-          </div>
-        </duv>
+      <div style={{height:"80px",width:"100%", background:"#2e2e2e"}}>
+        <div style={{height:"50px", width:"50px", background:"#fff",display:"flex" , alignItems:"center", justifyContent:"center", marginTop:"20px"}}></div>
       </div>
+      <Sidebar />
     </div>
   );
-};
+}

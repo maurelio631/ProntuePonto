@@ -10,7 +10,7 @@ export default function Routes (){
         <Router>
             <Route component={Login} path="/" exact/>
             <Route component={ForgotPassword} path="/ForgotPassword"/>
-            <Route component={MainPage} path="MainPage"/>
+            <Route component={MainPage} path="/MainPage"/>
         </Router>
     )
 }
