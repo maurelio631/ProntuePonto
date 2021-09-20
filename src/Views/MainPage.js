@@ -4,6 +4,6 @@ export default function MainPage(props) {
   return (
     <div>
       <Sidebar />
-    </div>
+    </div>  
   );
 }
