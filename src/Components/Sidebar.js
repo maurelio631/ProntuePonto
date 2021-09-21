@@ -5,7 +5,7 @@ export default function Sidebar(props) {
   return (
     <div className="sidebar">
       <img
-        className="sidebarItem"
+        className="sidebarLogo"
         src={require("../Assets/img/LogoPeP.png")}
         alt="Prontu e ponto Logo"
         onClick={(e) => {
