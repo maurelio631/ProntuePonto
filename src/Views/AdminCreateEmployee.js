@@ -17,6 +17,7 @@ function createEmployee(){
 export default (props) => {
   return (
     <View>
+      <h1>Teste </h1>
       <Titulo>Adicione um novo funcionário à sua clínica</Titulo>
       <TextEntry placeholder="Insira o nome do funcionário" />
       <PhoneEntry placeholder="Insira o telefone do funcionário" />
