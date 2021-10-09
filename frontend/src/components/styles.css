@@ -1,0 +1,14 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --black: #000000;
+  --black-light: #1a1919;
+  --grey: #D1D1D1;
+  --white: #FFFFFF;
+  --orange: #FE662E;
+  --red: rgb(206, 36, 36);
+  --orange-dark: #FE4400;
+  
+} 

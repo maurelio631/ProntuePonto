@@ -1,15 +1,8 @@
-import Calendar from "./Calendar";
-import Event from "./Calendar/event";
-import MultiEvent from "./Calendar/multiEvent";
+import ChangeCalendar from "./components/ChangeCalendar";
 
 function App() {
   return (
-    <>
-      <Calendar />
-      <Event />
-      <MultiEvent />
-
-    </>
+    <ChangeCalendar />
   );
 }
 
