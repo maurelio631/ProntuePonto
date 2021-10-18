@@ -1,6 +1,6 @@
 export const buildCalendar = (currentDate) => {
-  const firstDay = currentDate.clone().startOf("month").startOf("week");
-  const lastDay = currentDate.clone().endOf("month").endOf("week");
+  const firstDay = currentDate.clone().startOf("week");
+  const lastDay = currentDate.clone().endOf("week");
   const day = firstDay.clone().subtract(1, "day");
   const calendar = [];
   while(day.isBefore(lastDay, "day")) {

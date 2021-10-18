@@ -10,27 +10,27 @@ export const CalendarHeader = ({currentDate, setCurrentDate}) => {
     return currentDate.format("YYYY")
   }
 
-  function prevMonth(){
-    return currentDate.clone().subtract(1, "month")
+  function prevWeek(){
+    return currentDate.clone().subtract(1, "week")
   }
 
-  function nextMonth(){
-    return currentDate.clone().add(1, "month")
+  function nextWeek(){
+    return currentDate.clone().add(1, "week")
   }
 
-  function thisMonth() {
-    return currentDate.isSame(new Date(), "month")
+  function thisWeek() {
+    return currentDate.isSame(new Date(), "week")
   }
 
   return (
     <div className="header">
-        <div className="previous" onClick={() => !thisMonth() && setCurrentDate(prevMonth())}>
-          {!thisMonth() ? String.fromCharCode(171): null}
+        <div className="previous" onClick={() => !thisWeek() && setCurrentDate(prevWeek())}>
+          {!thisWeek() ? String.fromCharCode(171): null}
         </div>
         <div className="current">
           {currMonthName()} {currYear()}
         </div>
-        <div className="next" onClick={() => setCurrentDate(nextMonth())}>
+        <div className="next" onClick={() => setCurrentDate(nextWeek())}>
           {String.fromCharCode(187)}
         </div>
       </div>
