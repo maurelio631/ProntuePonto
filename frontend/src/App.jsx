@@ -1,8 +1,12 @@
-import ChangeCalendar from "./components/ChangeCalendar";
+// import ChangeCalendar from "./components/ChangeCalendar";
+import SelfEvaluation from "./pages/self-evaluation/index"
 
 function App() {
   return (
-    <ChangeCalendar />
+    <>
+      {/* <ChangeCalendar /> */}
+      <SelfEvaluation />
+    </>
   );
 }
 
