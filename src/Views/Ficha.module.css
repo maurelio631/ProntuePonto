@@ -1,0 +1,102 @@
+* {
+    font-family: Poppins
+}
+
+.logo {
+    margin-top: 1em;
+    width: min-content;
+    height: min-content;
+}
+
+.ficha {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 5vw;
+    background-color: rgb(196, 196, 196);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    height: 15vh;
+    border-bottom: 0.5px solid black;
+    align-items: center;
+}
+
+.clinicInfo {
+    margin-left: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clinicName {
+    margin-left: 1em;
+    font-family: Poppins;
+}
+
+.clinicPicture {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.employeeInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.employeeName {
+    margin-right: 1em;
+}
+
+.employeePicture {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.stepNameHighlight {
+    border-bottom: 0.5px solid black;
+}
+
+.stepNameHighlight h4 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formInfosPessoais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0 auto;
+}
+.w33{
+    width: 33.3333%;
+}

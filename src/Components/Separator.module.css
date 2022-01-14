@@ -1,9 +1,0 @@
-.Separator {
-  display: flex;
-  flex-direction: column;
-  background-color: #8f8e8e;
-  height: 1px;
-  align-items: center;
-  width: 50px;
-  border-color: "#c1c1c1";
-}
