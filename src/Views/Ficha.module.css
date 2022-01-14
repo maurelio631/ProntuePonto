@@ -1,11 +1,34 @@
-* {
-    font-family: Poppins
+input{
+    margin-left: 15px;
+    width: auto;
 }
 
 .logo {
     margin-top: 1em;
     width: min-content;
     height: min-content;
+}
+
+.sidebarImage {
+    width: 50px;
+    height: 50px;
+}
+
+.sidebar div ::clic{
+    background-color: aqua;
+}
+
+.calendarIcon{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+.patientIcon{
+    margin-top: -10px;
+    width: 50px;
+    height: 50px;
 }
 
 .ficha {
@@ -32,6 +55,7 @@
     width: 5vw;
     background-color: rgb(196, 196, 196);
 }
+
 
 .header {
     display: flex;
@@ -94,9 +118,64 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: baseline;
-    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+}
+.w100{
+    width: 100%;
+}
+.w50{
+    width: 50%;
 }
 .w33{
-    width: 33.3333%;
+    width: 33.333%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.formInfosPessoais{
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.formGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.fichaFooter{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.sendButton{
+    height: 54px;
+    width: 128px;
+    background-color: #a3a3a3;
+    border-radius: 10px;
+}
+.cancelButton{
+    height: 54px;
+    width: 128px;
+    background-color: #a3a3a3;
+    border-radius: 10px;
+}
+.nextButton{
+    height: 54px;
+    width: 128px;
+    background-color: #6A8795;
+    border-radius: 10px;
+}
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
